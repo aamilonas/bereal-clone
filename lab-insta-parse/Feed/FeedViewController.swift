@@ -22,12 +22,16 @@ final class FeedViewController: UIViewController {
 
     // A centered, multi-line message that sits behind the table’s cells.
     private lazy var emptyLabel: UILabel = {
-        let l = UILabel()
-        l.text = "You need to upload a photo before you can see your friends' feed!"
-        l.textAlignment = .center
-        l.numberOfLines = 0
-        l.textColor = .secondaryLabel
-        return l
+            let l = UILabel()
+            l.text = "You need to upload a photo before you can see your friends' feed!"
+            l.textAlignment = .center
+            l.numberOfLines = 0
+            l.textColor = .white                         // <- WHITE
+            l.font = .systemFont(ofSize: 22, weight: .semibold) // <- LARGER
+            // If you want Dynamic Type instead, use:
+            // l.font = .preferredFont(forTextStyle: .title3)
+            // l.adjustsFontForContentSizeCategory = true
+            return l
     }()
 
     // MARK: - Lifecycle
