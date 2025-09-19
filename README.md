@@ -1,4 +1,4 @@
-Project 2 — BeReal Clone (Instaparse, Part 1)
+Project 2 — BeReal Clone 
 =================================================
 
 Submitted by: 
@@ -38,7 +38,7 @@ Additional / Custom Features
 
 Walkthrough (GIF)
 -----------------
-- `lab2-amilonas2018.gif` (add to repo root or link here)
+-<img src="Project2-bereal.GIF" width="400" alt="Project 2 Demo">
 
 Architecture Notes
 ------------------
